@@ -13,7 +13,7 @@ export default function Events() {
     <section id="events" className="relative py-24 md:py-32 overflow-hidden">
       {/* Background with image overlay */}
       <div className="absolute inset-0">
-        <img src="/images/outdoor-evening.png" alt="" className="w-full h-full object-cover" aria-hidden="true" />
+        <img src={`${import.meta.env.BASE_URL}images/outdoor-evening.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
         <div className="absolute inset-0 bg-sage-950/88" />
       </div>
 

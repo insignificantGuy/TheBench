@@ -34,10 +34,10 @@ export default function About() {
           {/* Images */}
           <motion.div {...fadeIn} className="relative max-w-[500px] mx-auto lg:mx-0">
             <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/5]">
-              <img src="/images/entrance-sign.png" alt="The Bench entrance with signature branding and vintage gramophone" className="w-full h-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}images/entrance-sign.png`} alt="The Bench entrance with signature branding and vintage gramophone" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-8 -right-4 w-[55%] rounded-xl overflow-hidden shadow-2xl border-4 border-cream-100 dark:border-sage-900 aspect-[4/5]">
-              <img src="/images/interior-lounge.png" alt="The Bench indoor lounge with modern furniture" className="w-full h-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}images/interior-lounge.png`} alt="The Bench indoor lounge with modern furniture" className="w-full h-full object-cover" />
             </div>
             {/* Rating badge */}
             <div className="absolute top-5 -right-2 bg-white dark:bg-sage-800 px-5 py-4 rounded-xl shadow-lg text-center z-10">

@@ -57,7 +57,7 @@ export default function Locations() {
             </div>
             <div className="p-7">
               <div className="rounded-xl overflow-hidden mb-5 h-[200px]">
-                <img src="/images/green-curtains.png" alt="The Bench pop-up at the Founder's Memorial" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}images/green-curtains.png`} alt="The Bench pop-up at the Founder's Memorial" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col gap-3.5 mb-5">
                 <Detail icon="pin">The Founder's Memorial<br />Ras Al Akhdar, Abu Dhabi</Detail>

@@ -1,19 +1,21 @@
 import { motion } from 'framer-motion'
 import SectionLabel from './SectionLabel'
 
+const base = import.meta.env.BASE_URL
+
 const images = [
-  { src: '/images/interior-tree.png', alt: 'The Bench interior with large tree centerpiece', label: 'The Tree', span: 'row-span-2' },
-  { src: '/images/outdoor-evening.png', alt: 'Outdoor evening seating with colorful ceiling', label: 'Evening Ambiance' },
-  { src: '/images/branded-latte.png', alt: 'Latte art in The Bench branded green glass', label: 'Signature Serve' },
-  { src: '/images/matcha-latte.png', alt: 'Matcha latte art in grey ceramic cup', label: 'Matcha Latte' },
-  { src: '/images/french-toast.png', alt: 'French toast with berries and ice cream', label: 'French Toast', span: 'col-span-2' },
-  { src: '/images/dessert-branded.png', alt: 'Branded glass dessert on green plate', label: 'Sweet Endings' },
-  { src: '/images/green-curtains.png', alt: 'Green curtain display with brand signage', label: 'The Vibe', span: 'row-span-2' },
-  { src: '/images/interior-lounge.png', alt: 'The Bench indoor lounge seating area', label: 'The Lounge', span: 'row-span-2' },
-  { src: '/images/latte-art.png', alt: 'Beautiful latte art in ceramic cup', label: 'Latte Art' },
-  { src: '/images/eggs-benedict.png', alt: 'Eggs benedict brunch plate', label: 'Eggs Benedict' },
-  { src: '/images/brunch-golden.png', alt: 'Brunch dish with orange juice at golden hour', label: 'Golden Hour Brunch' },
-  { src: '/images/brunch-outdoor.png', alt: 'Brunch plate with outdoor view', label: 'Brunch Views' },
+  { src: `${base}images/interior-tree.png`, alt: 'The Bench interior with large tree centerpiece', label: 'The Tree', span: 'row-span-2' },
+  { src: `${base}images/outdoor-evening.png`, alt: 'Outdoor evening seating with colorful ceiling', label: 'Evening Ambiance' },
+  { src: `${base}images/branded-latte.png`, alt: 'Latte art in The Bench branded green glass', label: 'Signature Serve' },
+  { src: `${base}images/matcha-latte.png`, alt: 'Matcha latte art in grey ceramic cup', label: 'Matcha Latte' },
+  { src: `${base}images/french-toast.png`, alt: 'French toast with berries and ice cream', label: 'French Toast', span: 'col-span-2' },
+  { src: `${base}images/dessert-branded.png`, alt: 'Branded glass dessert on green plate', label: 'Sweet Endings' },
+  { src: `${base}images/green-curtains.png`, alt: 'Green curtain display with brand signage', label: 'The Vibe', span: 'row-span-2' },
+  { src: `${base}images/interior-lounge.png`, alt: 'The Bench indoor lounge seating area', label: 'The Lounge', span: 'row-span-2' },
+  { src: `${base}images/latte-art.png`, alt: 'Beautiful latte art in ceramic cup', label: 'Latte Art' },
+  { src: `${base}images/eggs-benedict.png`, alt: 'Eggs benedict brunch plate', label: 'Eggs Benedict' },
+  { src: `${base}images/brunch-golden.png`, alt: 'Brunch dish with orange juice at golden hour', label: 'Golden Hour Brunch' },
+  { src: `${base}images/brunch-outdoor.png`, alt: 'Brunch plate with outdoor view', label: 'Brunch Views' },
 ]
 
 export default function Gallery() {

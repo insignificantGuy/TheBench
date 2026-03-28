@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/images/hero-exterior.png"
+          src={`${import.meta.env.BASE_URL}images/hero-exterior.png`}
           alt="The Bench café interior with sage green walls and chesterfield sofa"
           className="w-full h-full object-cover"
         />
